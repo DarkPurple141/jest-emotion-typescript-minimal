@@ -52,3 +52,26 @@ exports[`using snapshotDiff() func 1`] = `
 
   [object Object]"
 `;
+
+exports[`vanilla toMatchSnapshot() 1`] = `
+.emotion-0 {
+  color: red;
+}
+
+.emotion-1 {
+  background-color: blue;
+}
+
+<div>
+  <p
+    className="emotion-0"
+  >
+    Hello
+  </p>
+  <button
+    className="emotion-1"
+  >
+    World
+  </button>
+</div>
+`;

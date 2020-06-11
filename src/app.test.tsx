@@ -8,6 +8,15 @@ test('Ideal', () => {
   expect(<Component />).toMatchDiffSnapshot(<Component isError />);
 })
 
+/** this works but isn't as useful as desired */
+test('vanilla toMatchSnapshot()', () => {
+  expect(
+    renderer
+      .create(<Component />)
+      .toJSON()
+  ).toMatchSnapshot()
+})
+
 // works except for [object Object] for component
 test('Using react-rest-render', () => {
   expect(
