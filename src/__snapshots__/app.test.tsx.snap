@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ideal 1`] = `
+"Snapshot Diff:
+- <App />
++ <App isError={true} />
+
+@@ -3,10 +3,10 @@
+      className=\\"css-gj8yp6-paragraphStyles\\"
+    >
+      Hello
+    </p>
+    <button
+-     className=\\"css-qrvbnj-buttonStyles\\"
++     className=\\"css-1d3nsau-errorStyles\\"
+    >
+      World
+    </button>
+  </div>"
+`;
+
+exports[`Using react-rest-render 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  .emotion-0 {
+    color: red;
+  }
+
+  .emotion-1 {
+-   background-color: blue;
++   background-color: red;
+  }
+
+  [object Object]"
+`;
+
+exports[`using snapshotDiff() func 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+  .emotion-0 {
+    color: red;
+  }
+
+  .emotion-1 {
+-   background-color: blue;
++   background-color: red;
+  }
+
+  [object Object]"
+`;

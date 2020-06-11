@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot difference using snapshotdiff directly 1`] = `
+"Snapshot Diff:
+- <App />
++ <App isError={true} />
+
+@@ -3,10 +3,10 @@
+      className=\\"css-gj8yp6-paragraphStyles\\"
+    >
+      Hello
+    </p>
+    <button
+-     className=\\"css-qrvbnj-buttonStyles\\"
++     className=\\"css-1d3nsau-errorStyles\\"
+    >
+      World
+    </button>
+  </div>"
+`;

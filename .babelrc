@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        // simliar to how TypeScript works, provides conditional polyfills
+        "useBuiltIns": "usage",
+        "corejs": "3.0"
+      }
+    ],
+    "@babel/preset-react",
+    "@babel/preset-typescript",
+    "@emotion/babel-preset-css-prop"
+  ]
+}
